@@ -20,6 +20,9 @@
     "@angular/platform-browser-dynamic": "^14.0.6",
     "@angular/router": "^14.0.6",
     "@awesome-cordova-plugins/barcode-scanner": "^5.44.0",
+    "@awesome-cordova-plugins/email-composer": "^5.44.0",
+    "@awesome-cordova-plugins/file": "^5.44.0",
+    "@awesome-cordova-plugins/in-app-browser": "^5.44.0",
     "@capacitor/android": "3.6.0",
     "@capacitor/app": "1.1.1",
     "@capacitor/core": "3.6.0",
@@ -28,6 +31,8 @@
     "@capacitor/status-bar": "1.0.8",
     "@ionic/angular": "^6.1.14",
     "@ionic/cordova-builders": "^6.1.0",
+    "@ionic/storage": "^3.0.6",
+    "@ionic/storage-angular": "^3.0.6",
     "cordova-android": "10.1.2",
     "phonegap-plugin-barcodescanner": "^8.1.0",
     "rxjs": "~6.6.0",
@@ -52,10 +57,14 @@
     "@typescript-eslint/eslint-plugin": "5.3.0",
     "@typescript-eslint/parser": "5.3.0",
     "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-email-composer": "^0.10.1",
+    "cordova-plugin-file": "^7.0.0",
+    "cordova-plugin-inappbrowser": "^5.0.0",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-sqlite-storage": "^6.0.0",
     "eslint": "^7.6.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsdoc": "30.7.6",
@@ -80,7 +89,13 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "phonegap-plugin-barcodescanner": {}
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-file": {
+        "ANDROIDX_WEBKIT_VERSION": "1.4.0"
+      },
+      "cordova-plugin-email-composer": {}
     },
     "platforms": [
       "android"
